@@ -1,0 +1,675 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>[SUBJECT]</title>
+    <style type="text/css">
+        body {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+        }
+
+        .tableContent img {
+            border: 0 !important;
+            display: block !important;
+            outline: none !important;
+        }
+
+        a {
+            color: #382F2E;
+        }
+
+        p, h1, h2, ul, ol, li, div {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            font-weight: normal;
+            background: transparent !important;
+            border: none !important;
+        }
+
+        .product-image{
+            width:50px;
+            height:50px;
+        }
+        .view-order-btn {
+            background-color: #318c49;
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 4px;
+        }
+
+        @media only screen and (max-width:480px) {
+
+            table[class="MainContainer"], td[class="cell"] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class="specbundle"] {
+                width: 100% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 15px !important;
+            }
+
+            td[class="specbundle2"] {
+                width: 80% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 10px !important;
+                padding-left: 10% !important;
+                padding-right: 10% !important;
+            }
+
+            td[class="spechide"] {
+                display: none !important;
+            }
+
+            img[class="banner"] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class="left_pad"] {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+        }
+
+        @media only screen and (max-width:540px) {
+
+            table[class="MainContainer"], td[class="cell"] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class="specbundle"] {
+                width: 100% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 15px !important;
+            }
+
+            td[class="specbundle2"] {
+                width: 80% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 10px !important;
+                padding-left: 10% !important;
+                padding-right: 10% !important;
+            }
+
+            td[class="spechide"] {
+                display: none !important;
+            }
+
+            img[class="banner"] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class="left_pad"] {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+        }
+
+        .contentEditable h2.big, .contentEditable h1.big {
+            font-size: 26px !important;
+        }
+
+        .contentEditable h2.bigger, .contentEditable h1.bigger {
+            font-size: 37px !important;
+        }
+
+        td, table {
+            vertical-align: top;
+        }
+
+            td.middle {
+                vertical-align: middle;
+            }
+
+        a.link1 {
+            font-size: 13px;
+            color: #27A1E5;
+            line-height: 24px;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .link2 {
+            color: #ffffff;
+            border-top: 10px solid #27A1E5;
+            border-bottom: 10px solid #27A1E5;
+            border-left: 18px solid #27A1E5;
+            border-right: 18px solid #27A1E5;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            background: #27A1E5;
+        }
+
+        .link3 {
+            color: #555555;
+            border: 1px solid #cccccc;
+            padding: 10px 18px;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            background: #ffffff;
+        }
+
+        .link4 {
+            color: #27A1E5;
+            line-height: 24px;
+        }
+
+        h2, h1 {
+            line-height: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            color: #AAAAAA;
+        }
+
+
+
+        .bgItem {
+            background: #ffffff;
+        }
+
+        .bgBody {
+            background: #ffffff;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            width: auto;
+            max-width: 100%;
+            clear: both;
+            display: block;
+            float: none;
+        }
+
+        .grid-container {
+            /*display: grid;
+            grid-template-columns: auto auto;*/
+            background-color: #bee8cd61;
+            padding: 10px;
+            margin-top:10px;
+        }
+
+        .grid-container-productinfo {
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+           
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .grid-container-ordertotal {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .buttonViewOrManageOrder {
+            background-color: #e5eff3;/*#4CAF50;*/ /* Green */
+            border: none;
+            color: white !important;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .button2 {
+            background-color: #008CBA;
+        }
+
+        .order-info-div{
+            padding:10px;
+        }
+        .order-product-img{
+            width:80px;
+            height:80px;
+        }
+        .order-product-price{
+            text-align:center;
+        }
+
+        .disp_block {
+            /* ORDERSTATUSCLASSORDERSTATUSCLASS display:block; */
+            display:block;
+        }
+
+        .table-orderdetails {
+            width:100%; 
+            margin-top:10px;
+        }
+
+        .order-status-color-blue{
+            color:blue;
+        }
+
+        .order-status-color-green {
+            color: green;
+        }
+
+        .order-status-color-red {
+            color: darkred;
+        }
+
+        .logo_size
+        {
+            width:40%;
+        }
+        @media only screen and (max-width:480px)
+        {
+            .logo_size
+            {
+                width:60%;
+            }
+        }
+        @media only screen and (max-width:350px)
+        {
+            .logo_size
+            {
+                width:100%;
+            }
+        }
+    </style>
+
+
+    <script type="colorScheme" class="swatch active">
+        {
+        "name":"Default",
+        "bgBody":"ffffff",
+        "link":"27A1E5",
+        "color":"AAAAAA",
+        "bgItem":"ffffff",
+        "title":"444444"
+        }
+    </script>
+
+
+</head>
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4" style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0" toppadding="0" leftpadding="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+                        <!-- =============== START HEADER =============== -->
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" width="20">&nbsp;</td>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="movableContentContainer">
+                                                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="15"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td valign="top">
+                                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                            <tbody>
+                                                                                                                <tr>
+
+                                                                                                                    <td valign="middle" style='vertical-align: middle;'>
+                                                                                                                        <div class='contentEditableContainer contentTextEditable'>
+                                                                                                                            <div class='contentEditable' style='text-align: left; font-weight:light; color:#555555;font-size:26;line-height: 39px;font-family: Helvetica Neue;'>
+                                                                                                                                <h1 class='big'>
+                                                                                                                                    <a target='_blank' href="[CLIENTS.WEBSITE]" style='color:#444444'>
+                                                                                                                                        <!-- <img src="@@LOGO@@" alt="Logo" /> -->
+                                                                                                                                        <img src="http://test2.jananigreens.in/Images/janani_small_logo.png" alt="" class="logo_size">
+                                                                                                                                        <!-- <span style="color:green;">Janani Greens</span> -->
+                                                                                                                                    </a>
+                                                                                                                                </h1>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                    <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                                                                    <td valign="middle" style='vertical-align: middle;' width='150'>
+                                                                                                        <div class='contentEditableContainer contentTextEditable'>
+                                                                                                            <div class='contentEditable' style='text-align: right;'>
+                                                                                                                <a target='_blank' href="[WEBLINK]" class='link1'>Open in your browser</a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height='15'></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><hr style='height:1px;background:#DDDDDD;border:none;' /></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                    <!-- =============== END HEADER =============== -->
+                                                                    <!-- =============== START BODY =============== -->
+                                                                     <div style="text-align:right;margin-bottom:10px;">
+                                                                            <label style="display:block; text-align:right;" class="@@ORDERSTATUSCLASS@@">@@BOOKINGSTATUS@@</label>
+                                                                            <label>BookingID #</label><label>@@BOOKINGID@@</label>
+                                                                      </div>
+                                                                    <div>
+                                                                        <label>Hello @@USERNAME@@</label>
+                                                                    </div>
+                                                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                                                        <!-- <p>@@MAILTEXTHEAD@@ </p> -->
+                                                                        <p>Please find below your complete booking request summary:</p>
+                                                                    </div>
+                                                                    <div>
+                                                                        <!--<div class="grid-container">
+                                                                            <div>
+                                                                                <label style="display:block;">Arriving:</label>
+                                                                                <label style="display:block; color:forestgreen;">
+                                                                                    @@ESTIMATEDDELIVERYDATE@@
+                                                                                </label>
+                                                                                <div style="height:50px"></div>
+                                                                                <button class="buttonViewOrManageOrder button2">View or Manage Order</button>
+                                                                            </div>
+                                                                            <div>
+                                                                                <label style="display:block;">Your order will be sent to:</label>
+                                                                                <label style="display:block;">@@USERNAME@@</label>
+                                                                                <label style="display:block;">Ph: @@PHONE@@</label>
+                                                                                <label style="display:block;">@@DELIVERYADDRESS@@</label>
+                                                                                <label style="display:block;">@@LOCALITY@@</label>
+                                                                                <label style="display:block;">@@CITY@@, @@STATE@@ @@PINCODE@@</label>
+
+                                                                            </div>
+
+                                                                        </div>-->
+                                                                        <table style="width:100%;" class="grid-container">
+                                                                            <tr>
+                                                                                <td width="45%">
+                                                                                    <div>
+                                                                                        <label style="display:block;">Booking period:</label>
+                                                                                        <label style="display:block; color:forestgreen;">
+                                                                                            @@ESTIMATEDDELIVERYDATE@@
+                                                                                        </label>
+
+                                                                                        <div style="height:50px"></div>
+                                                                                        <!--<button class="buttonViewOrManageOrder button2" onclick="window.location.href = '@@ORDERTRACKPAGE@@';">View or Manage Order</button>-->
+                                                                                        <a href="@@ORDERTRACKPAGE@@" style="color:orangered;">Click this link to confirm your booking</a>
+                                                                                    </div>
+
+                                                                                </td>
+                                                                                <td width="10%">
+
+                                                                                </td>
+                                                                                <td width="45%">
+                                                                                    <label style="display:block;">Booked on: @@YOURBOOKINGDONEON@@</label>
+                                                                                    <label style="display:block;">Name: @@USERNAME@@</label>
+                                                                                    <label style="display:block;">Ph: @@PHONE@@</label>
+                                                                                    <label style="display:block;">Email: @@EMAIL@@</label>
+                                                                                    <!-- <label style="display:block;">@@LOCALITY@@</label>
+                                                                                    <label style="display:block;">@@CITY@@, @@STATE@@ @@PINCODE@@</label> -->
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                    
+                                                                    <div style="margin-top:10px; margin-bottom:20px;">
+                                                                        <!-- <strong><label>@@WHYDATERANGE@@</label></strong> <label>@@DATERANGEEXPLANATION@@ </label> -->
+                                                                    </div>
+                                                                    <label>Booking Request Details</label>
+                                                                   <hr style='height:1px;background:#DDDDDD;border:none;' />
+                                                                   <div style="display:block;"><label>BookingID #</label><label>@@BOOKINGID@@</label></div>
+                                                                    <div><lable>Booked on </lable><label>@@YOURBOOKINGDONEON@@</label></div>
+                                                                    <!-- <table class="table-orderdetails">
+                                                                        <tr>
+                                                                            <td width="30">
+                                                                                <img src="../../Images/Product/3d01bf15fdd677cdd671aca69ffc1fab--casual-shirts-for-men-men-casual_636660033307610695_636672690402781693.jpg" class="order-product-img" />
+                                                                            </td>
+                                                                            <td width="40">
+                                                                                <label class="disp_block">Room Name</label>
+                                                                                <div class="disp_block">
+                                                                                    <label>AC availed:Yes</label>
+                                                                                </div>
+                                                                                <label>No. of person :</label><label>4</label>
+                                                                            </td>
+                                                                            <td width="30" class="order-product-price">
+                                                                                <label>Rs.940</label>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </table> -->
+
+
+
+                                                                    <!--<div class="grid-container-productinfo">
+                                                                        <div class="order-info-div">
+                                                                            <img src="../../Images/Product/3d01bf15fdd677cdd671aca69ffc1fab--casual-shirts-for-men-men-casual_636660033307610695_636672690402781693.jpg" class="order-product-img" />
+                                                                        </div>
+                                                                        <div>
+                                                                            <label class="disp_block">Butterfly Wave 1.2-Litre Multi Cooker (Silver)</label>
+                                                                            <div class="disp_block">
+                                                                                <label>Quantity:2</label>
+                                                                            </div>
+                                                                            <label>Sold by </label><label>Seller Name</label>
+                                                                        </div>
+                                                                        <div class="order-product-price">
+                                                                            <label>Rs.940</label>
+                                                                        </div>
+
+
+                                                                        <div class="order-info-div">
+                                                                            <img src="../../Images/Product/3d01bf15fdd677cdd671aca69ffc1fab--casual-shirts-for-men-men-casual_636660033307610695_636672690402781693.jpg" class="order-product-img" />
+                                                                        </div>
+                                                                        <div>
+                                                                            <label style="display:block">Butterfly Wave 1.2-Litre Multi Cooker (Silver)</label>
+                                                                            <div style="display:block;">
+                                                                                <label>Quantity:</label><label>2</label>
+                                                                            </div>
+                                                                            <label>Sold by </label><label>Seller Name</label>
+                                                                        </div>
+                                                                        <div class="order-product-price">
+                                                                            <label>Rs.</label><label>940</label>
+                                                                        </div>
+
+
+                                                                    </div>-->
+                                                                    @@ORDERPRODUCTDETAILS@@
+                                                                     <hr style='height:1px;background:#DDDDDD;border:none;' />
+                                                                    <table style="width:100%;margin-top:10px;">
+                                                                        <tr>
+                                                                            <td width="60%">
+                                                                                <div style=" text-align:right;">
+                                                                                    <label style="display:block;">Item Subtotal:</label>
+                                                                                    <!-- <label style="display:block;">Promotion Applied: </label>
+                                                                                    <label style="display:block;">Promotion Discount: </label> -->
+                                                                                    <label style="display:block;margin-top:5px;">Order Total:</label>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td width="40%">
+                                                                                <div style=" text-align:center;">
+                                                                                    <label style="display:block;">RS. @@ITEMSUBTOTALCOST@@</label>
+                                                                                    <!-- <label style="display:block;"> @@APPLIEDPROMOTIONNAME@@</label>
+                                                                                    <label style="display:block;">- Rs. @@PROMOTIONAPPLIED@@</label> -->
+                                                                                    <label style="display:block;margin-top:5px;">Rs. @@ORDERTOTAL@@</label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                    <!--<div class="grid-container-ordertotal" style="margin-top:10px;">
+                                                                        <div style=" text-align:right;">
+                                                                            <label style="display:block;">Item Subtotal:</label>
+                                                                            <label style="display:block;">Shipping & Handling:</label>
+                                                                            <label style="display:block;">Promotion Applied: </label>
+                                                                            <label style="display:block;margin-top:5px;">Order Total:</label>
+                                                                        </div>
+                                                                        <div style=" text-align:center;">
+                                                                            <label style="display:block;">RS. @@ITEMSUBTOTALCOST@@</label>
+                                                                            <label style="display:block;">Rs. @@SHIPPINGANDHANDLING@@</label>
+                                                                            <label style="display:block;">- Rs. @@PROMOTIONAPPLIED@@</label>
+                                                                            <label style="display:block;margin-top:5px;">Rs. @@ORDERTOTAL@@</label>
+                                                                        </div>
+                                                                    </div>-->
+                                                                    <hr style='height:1px;background:#DDDDDD;border:none;' />
+                                                                    <div style="margin-top:30px;">
+                                                                        <p style="color:crimson;"><strong>Note: </strong> Please note your booking request is not a confirmation of your booking with us. 
+                                                                            The booking will be confirmed for the guests who will first pay for the requested room for any specific duration of stay. </p>
+                                                                        <!-- <P style="margin-top:3px;">Some products have a limited quantity available for purchase. Please see the product’s Detail Page for the available quantity. Any orders which exceed this quantity will be automatically canceled. </P> -->
+                                                                        <label style="display:block;margin-top:20px;">
+                                                                            We hope to see you soon.
+                                                                        </label>
+                                                                        <label>Janani Greens</label>
+                                                                    </div>
+                                                                    <!--<div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                                                        @@MailBody@@
+                                                                    </div>-->
+                                                                    <!-- =============== END BODY =============== -->
+                                                                    <!-- =============== START FOOTER =============== -->
+                                                                    <div class="row"> &nbsp;</div>
+                                                                    <hr />
+                                                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                                                                    <td>
+                                                                                                        <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                                                                            <tr>
+                                                                                                                <td>
+                                                                                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                                                                                        <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
+                                                                                                                            <p>
+                                                                                                                                Sent by Janani Greens<br />
+                                                                                                                                This is an automatically generated email,<br />
+                                                                                                                                please do not reply to this email.<br />
+                                                                                                                                @@LastFooterText@@
+                                                                                                                            </p>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                    <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+
+
+                                                                    </div>
+                                                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="40"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td valign="top" width="185" class="spechide">&nbsp;</td>
+                                                                                                    <td class="specbundle2"></td>
+                                                                                                    <td valign="top" width="185" class="spechide">&nbsp;</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height='40'></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+
+                                                                        <!-- =============== END FOOTER =============== -->
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td valign="top" width="20">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
